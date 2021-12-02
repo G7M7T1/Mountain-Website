@@ -229,7 +229,7 @@ html {
 .section-4 {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     background-color: #fafcfc;
     align-items: center;
     justify-content: center;
@@ -245,7 +245,7 @@ html {
 }
 
 .section-4-list-photo {
-    width: 450px;
+    width: 500px;
     height: 350px;
     margin: 1rem;
 }
@@ -299,4 +299,263 @@ footer {
     justify-content: center;
     text-align: center;
     font-weight: 700;
+}
+
+@media screen and (max-width:1650px) {
+    .section-4 {
+        margin: 1.5rem;
+        height: 80vh;
+    }
+
+    .section-4-list-photo {
+        width: 450px;
+        height: 300px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .section-4 {
+        margin: 1rem;
+        height: 70vh;
+    }
+
+    .section-4-list-photo {
+        width: 400px;
+        height: 250px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .section-4-list-photo {
+        width: 380px;
+        height: 220px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .section-2-maintext {
+        font-size: 1.5rem;
+    }
+
+    .photo {
+        height: 380px;
+        width: 300px;
+        margin: 1.5rem;
+    }
+
+    .photo p {
+        font-size: 2rem;
+    }
+
+    .navlink {
+        ul {
+            li {
+                font-size: 1.2rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    .section-4-list-photo {
+        width: 350px;
+        height: 220px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .section-4 {
+        margin: 1rem;
+        height: 60vh;
+    }
+
+    .section-4-list-photo {
+        width: 300px;
+        height: 200px;
+        margin: 0.5rem;
+    }
+
+    .section-2-othertext {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    html {
+        font-size: 75%;
+    }
+
+    .photo {
+        height: 330px;
+        width: 250px;
+        margin: 1.5rem;
+    }
+
+    .photolist {
+        height: 400px;
+    }
+
+    .section-2 {
+        height: 600px;
+    }
+
+    .section-2-maintext {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .section-4 {
+        margin: 0.5rem;
+        height: 50vh;
+    }
+
+    .section-4-list-photo {
+        width: 250px;
+        height: 150px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .photo {
+        height: 280px;
+        width: 200px;
+        margin: 1rem;
+    }
+
+    .section-4 {
+        margin: 0.5rem;
+        min-height: 270vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 {
+        height: 400px;
+    }
+
+    .section-4-list-photo {
+        width: 550px;
+        height: 350px;
+        margin: 1.5rem;
+    }
+
+    .section-4-list-1 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-4-list-2 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    html {
+        font-size: 60%;
+    }
+
+    .photolist {
+        height: 320px;
+    }
+
+    .section-2 {
+        height: 550px;
+    }
+
+    .photo {
+        height: 260px;
+        width: 220px;
+        margin: 1.5rem;
+    }
+
+    .section-4-list-photo {
+        width: 450px;
+        height: 300px;
+        margin: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    html {
+        font-size: 50%;
+    }
+
+    .photo {
+        height: 200px;
+        width: 150px;
+        margin: 1.5rem;
+    }
+
+    .photolist {
+        height: 220px;
+    }
+
+    .section-2 {
+        height: 450px;
+    }
+
+    .section-3-bg p {
+        width: 90%;
+    }
+
+    .section-4 {
+        min-height: 210vh;
+    }
+
+    .section-4-list-photo {
+        width: 350px;
+        height: 200px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .welcometext h1 {
+        font-size: 4rem;
+    }
+
+    .photo {
+        height: 200px;
+        width: 130px;
+        margin: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 40%;
+    }
+
+    .photo {
+        height: 170px;
+        width: 120px;
+        margin: 0.5rem;
+    }
+
+    .photolist {
+        height: 200px;
+    }
+
+    .section-2 {
+        height: 450px;
+    }
+
+    .section-4 {
+        min-height: 150vh;
+    }
+
+    .section-4-list-photo {
+        width: 250px;
+        height: 150px;
+        margin: 0.5rem;
+    }
 }
