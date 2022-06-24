@@ -1,0 +1,108 @@
+.section-welcome {
+  height: 800px;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../asset/main-banner-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgg {
+  height: 100%;
+  width: 100%;
+  background-color: rgba($color: #1100ff, $alpha: 0.2);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 3rem;
+  height: 5rem;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.logo {
+  height: 80%;
+
+  img {
+    height: 100%;
+  }
+}
+
+.navLink {
+  ul {
+    display: flex;
+
+    li {
+      font-size: 1.5rem;
+      margin-right: 2rem;
+
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 5rem);
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  p {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.buttonArea {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .welcomeText h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 45%;
+  }
+}
