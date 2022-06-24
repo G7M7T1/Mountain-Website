@@ -1,0 +1,44 @@
+.section-2 {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.photo-list {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.section-2-main-text {
+  width: 30%;
+  font-size: 2rem;
+
+  h3 {
+    font-weight: 300;
+  }
+}
+
+.section-2-other-text {
+  width: 30%;
+
+  button {
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    background-color: #0373c5;
+  }
+}

@@ -15,7 +15,6 @@ const MainBanner = () => {
                             <ul>
                                 <li><Link to="#">Home</Link></li>
                                 <li><Link to="#">About</Link></li>
-                                <li><Link to="#">Services</Link></li>
                                 <li><Link to="#">Contact</Link></li>
                             </ul>
                         </div>
@@ -27,7 +26,7 @@ const MainBanner = () => {
                             Do you want a better view? This will play a key role in
                             your life, we help customers see better scenery and help
                             customers go to more snow-capped mountains. If you want
-                            to join our service, you can contact our customer service, 
+                            to join our service, you can contact our customer service,
                             we will bring you the best service and best experience
                         </p>
                         <div className="buttonArea">
