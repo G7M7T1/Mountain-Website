@@ -34,3 +34,63 @@
   bottom: 0;
   background-color: rgba($color: #1100ff, $alpha: 0.2);
 }
+
+@media screen and (max-width:1250px) {
+  .photo {
+    height: 380px;
+    width: 300px;
+    margin: 1.5rem;
+  }
+
+  .photo p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .photo {
+    height: 330px;
+    width: 250px;
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .photo {
+    height: 280px;
+    width: 200px;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .photo {
+    height: 260px;
+    width: 220px;
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .photo {
+    height: 200px;
+    width: 150px;
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .photo {
+    height: 200px;
+    width: 130px;
+    margin: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .photo {
+    height: 170px;
+    width: 120px;
+    margin: 0.5rem;
+  }
+}

@@ -36,11 +36,11 @@ const Services = () => {
                 </div>
                 <div className="section-2-other-text">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur lore adipisicing elit. Totam
-                        consectetur soluta odit lore optio, minima lore vero velit,
-                        consectetur maiores placeat dolores lore minus!
+                        We will take you to the most beautiful cities, take you to travel,
+                        take you to taste the best restaurants, and take you to meet the
+                        people you want to know. We are committed to making customers' lives
+                        more exciting, choose our services and start your new life
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <Button type='button' buttonType='google'>Check More</Button>
                 </div>
             </div>
