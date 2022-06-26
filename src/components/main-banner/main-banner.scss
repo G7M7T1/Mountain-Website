@@ -1,11 +1,23 @@
 .section-welcome {
   height: 800px;
+  overflow: hidden;
 }
 
 .bg {
   height: 100%;
   width: 100%;
-  background-image: url("../../asset/main-banner-bg.jpg");
+  background-image: url("../../asset/main-banner-bg-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-bg-1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../asset/main-banner-bg-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
