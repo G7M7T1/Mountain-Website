@@ -1,25 +1,13 @@
 import "./main-banner.scss"
 import {Link} from "react-router-dom"
 import Button from "../Button/button"
-import {useEffect, useRef} from "react"
-import {gsap} from "gsap"
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollToPlugin);
+
 
 const MainBanner = () => {
-    // const tl = useRef(gsap.timeline({ paused: true }))
-
-    // let am001 = useRef()
-    // let am002 = useRef()
-    // let am003 = useRef()
-    // let am004 = useRef()
-    //
-    // useEffect(() => {
-    //     tl.current
-    //         .from(am001.current, {x: 180, opacity: 0})
-    //         .from(am002.current, {y: 30, opacity: 0})
-    //         .from(am003.current, {scale: 0, opacity: 0, transformOrigin: "50% 50%"})
-    //         .from(am004.current, {scale: 0, opacity: 0, transformOrigin: "50% 50%"})
-    // }, [])
-
     return (
         <section className="section-welcome">
             <div className="bg">
@@ -32,8 +20,8 @@ const MainBanner = () => {
                             <div className="navLink">
                                 <ul>
                                     <li><Link to="#">Home</Link></li>
-                                    <li><Link to="#">About</Link></li>
-                                    <li><Link to="#">Contact</Link></li>
+                                    <li><Link to="about">About</Link></li>
+                                    <li><Link to="contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </nav>
@@ -49,7 +37,7 @@ const MainBanner = () => {
                             </p>
                             <div className="buttonArea">
                                 <Button>Services</Button>
-                                <Button>About Us</Button>
+                                <Link to="about"><Button>About Us</Button></Link>
                             </div>
                         </div>
                     </div>

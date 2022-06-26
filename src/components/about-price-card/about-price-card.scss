@@ -1,0 +1,185 @@
+.pricing-card {
+  width: 28rem;
+  height: 45rem;
+  background-color: #181b1d;
+  border-radius: 1rem;
+  margin: 1rem;
+  color: white;
+}
+
+.pricing-card-front {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-card-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.heading-free {
+  background: linear-gradient(to right, #005D98, #63a0bb);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.heading-basic {
+  background: linear-gradient(to right, #bd5a3f, #FFCC4B);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.heading-standard {
+  background: linear-gradient(to right, #5c6dd8, #e452ce);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.heading-premium {
+  background: linear-gradient(to right, #FA0874, #FFC446);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.pricing-card-price {
+  font-size: 6rem;
+}
+
+.pricing-card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.list-free li {
+  color: #0472b6;
+}
+
+.list-basic li {
+  color: #d45c3b;
+}
+
+.list-standard li {
+  color: #e452ce;
+}
+
+.list-premium li {
+  color: #FA0874;
+}
+
+.pricing-card-list i {
+  font-size: 1.8rem;
+  width: 3rem;
+}
+
+.pricing-card-list span {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.pricing-card-btn {
+  width: 18rem;
+  height: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-free {
+  background-color: #0472b6;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-free::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: skewX(-30deg);
+  transition: left 0.5s;
+}
+
+.btn-free:hover::before {
+  left: 100%;
+}
+
+.btn-basic {
+  background-color: #d45c3b;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-basic::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: skewX(-30deg);
+  transition: left 0.5s;
+}
+
+.btn-basic:hover::before {
+  left: 100%;
+}
+
+.btn-standard {
+  background-color: #e452ce;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-standard::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: skewX(-30deg);
+  transition: left 0.5s;
+}
+
+.btn-standard:hover::before {
+  left: 100%;
+}
+
+.btn-premium {
+  background-color: #FA0874;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-premium::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: skewX(-30deg);
+  transition: left 0.5s;
+}
+
+.btn-premium:hover::before {
+  left: 100%;
+}

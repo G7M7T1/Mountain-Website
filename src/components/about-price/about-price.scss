@@ -1,0 +1,31 @@
+.pricing-section {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-heading-section {
+  font-weight: 900;
+  font-size: 6rem;
+  color: #ddd;
+  text-shadow: .3rem .3rem 0.6rem #000000;
+
+  // width: 40%;
+  span {
+    color: #428ee3;
+  }
+}
+
+.pricing-cards-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  padding-top: 5rem;
+}
