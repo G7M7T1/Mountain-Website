@@ -10,7 +10,5 @@ Q
 !src/components/footer/footer.scss,c\8\c8c9d3d5e8ec48147c4bf118961770ea53399e63
 Y
 )src/components/photo-list/photo-list.scss,8\6\86a55f80fd670534ea012c38812f250b6f2bc30f
-Y
-)src/components/serve-card/serve-card.scss,f\a\fa0b5331a906bf2c3fe1a766894ea8a6bfd35346
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a

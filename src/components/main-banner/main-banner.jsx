@@ -17,13 +17,6 @@ const MainBanner = () => {
                             <div className="logo">
                                 <img src="mt.svg" alt="logo"/>
                             </div>
-                            <div className="navLink">
-                                <ul>
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/contact">Contact</Link></li>
-                                </ul>
-                            </div>
                         </nav>
                         <div className="welcomeText">
                             <h3>Mountain Ware</h3>
