@@ -2,7 +2,7 @@ import "./footer.scss"
 
 const Footer = () => {
     return(
-        <footer>Copyright © 2021 G7M7T1</footer>
+        <footer>Copyright © 2022 G7M7T1</footer>
     )
 }
 
