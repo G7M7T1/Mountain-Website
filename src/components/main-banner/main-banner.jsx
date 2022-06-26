@@ -19,9 +19,9 @@ const MainBanner = () => {
                             </div>
                             <div className="navLink">
                                 <ul>
-                                    <li><Link to="#">Home</Link></li>
-                                    <li><Link to="about">About</Link></li>
-                                    <li><Link to="contact">Contact</Link></li>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </nav>
@@ -36,8 +36,8 @@ const MainBanner = () => {
                                 we will bring you the best service and best experience
                             </p>
                             <div className="buttonArea">
-                                <Button>Services</Button>
-                                <Link to="about"><Button>About Us</Button></Link>
+                                <Link to="/contact"><Button>Contact</Button></Link>
+                                <Link to="/about"><Button>About Us</Button></Link>
                             </div>
                         </div>
                     </div>

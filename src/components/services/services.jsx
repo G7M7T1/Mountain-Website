@@ -1,6 +1,7 @@
 import "./services.scss"
 import Button from "../Button/button";
 import ServeCard from "../serve-card/serve-card";
+import {Link} from "react-router-dom";
 
 const Service_Data = [
     {
@@ -27,7 +28,7 @@ const Services = () => {
         <section className="section-2">
             <div className="photo-list">
                 {Service_Data.map(({id, title, imageUrl}) => (
-                    <ServeCard key={id} title={title} imageUrl={imageUrl} />
+                    <ServeCard key={id} title={title} imageUrl={imageUrl}/>
                 ))}
             </div>
             <div className="section-2-text">
@@ -41,7 +42,7 @@ const Services = () => {
                         people you want to know. We are committed to making customers' lives
                         more exciting, choose our services and start your new life
                     </p>
-                    <Button type='button' buttonType='google'>Check More</Button>
+                    <Link to="/about"><Button type='button' buttonType='google'>Check More</Button></Link>
                 </div>
             </div>
         </section>

@@ -11,7 +11,8 @@ const BannerOne = {
             "our service? Contact us now and we can give you a discount. " +
             "It is our mission to open your new life and make you happy and " +
             "happy every day",
-        button: "Contact Us"
+        button: "Contact Us",
+        to: "contact"
 }
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
             <MainBanner />
             <Services />
             <Banner imgUrl={BannerOne.imgUrl} title={BannerOne.title}
-                    text={BannerOne.text} button={BannerOne.button} />
+                    text={BannerOne.text} button={BannerOne.button} to={BannerOne.to} />
             <PhotoList />
             <Footer />
         </>

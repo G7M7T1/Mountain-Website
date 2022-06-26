@@ -1,4 +1,5 @@
 import "./about-price-card.scss"
+import {Link} from "react-router-dom";
 
 const AboutPriceCard = ({cardType, title, price, text1, text2, text3, text4, text5}) => {
     return(
@@ -28,7 +29,7 @@ const AboutPriceCard = ({cardType, title, price, text1, text2, text3, text4, tex
                         <span>{text5}</span>
                     </li>
                 </ul>
-                <button className={`pricing-card-btn btn-${cardType}`}>Choose Plan</button>
+                <Link to="/contact"><button className={`pricing-card-btn btn-${cardType}`}>Choose Plan</button></Link>
             </div>
 
         </div>

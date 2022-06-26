@@ -16,7 +16,7 @@ const Card_Data = [
 
     {
         id: 20002,
-        cardType: "standard",
+        cardType: "free",
         title: "Standard",
         price: 6000,
         text1: "6 Day time",
@@ -28,7 +28,7 @@ const Card_Data = [
 
     {
         id: 20003,
-        cardType: "premium",
+        cardType: "free",
         title: "Premium",
         price: 9999,
         text1: "12 Day time",
@@ -41,10 +41,10 @@ const Card_Data = [
 
 const AboutPrice = () => {
     return (
-        <div class="pricing-section">
-            <h1 class="section-heading-section">Server <span>Pricing</span></h1>
+        <div className="pricing-section">
+            <h1 className="section-heading-section">Server <span>Pricing</span></h1>
             <div>
-                <div class="pricing-cards-wrapper">
+                <div className="pricing-cards-wrapper">
                     {Card_Data.map(({
                                         id, cardType, title,
                                         price, text1, text2,

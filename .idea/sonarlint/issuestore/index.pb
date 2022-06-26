@@ -3,13 +3,6 @@
 src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
 <
 src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
-S
-#src/pages/navigation/navigation.jsx,1\7\174981db7c6abb25253fc34f096c2cbb0a749a16
-:
-
-src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
-P
- src/components/Button/button.jsx,d\a\dac83d6ffbb75702013f640db5e63691f32da606
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
