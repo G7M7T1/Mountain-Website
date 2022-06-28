@@ -1,14 +1,0 @@
-
->
-src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
-<
-src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-Q
-!src/components/footer/footer.scss,c\8\c8c9d3d5e8ec48147c4bf118961770ea53399e63
-Y
-)src/components/photo-list/photo-list.scss,8\6\86a55f80fd670534ea012c38812f250b6f2bc30f
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
